@@ -231,7 +231,7 @@ public class zirboin extends javax.swing.JFrame {
     txtffrazoint.setText(""+frazoint[1]+"");
     newtotal[3] = (Math.abs(frazoint[0]-frazoint[1]))*newtotal[2];
     
-    blointoint[0] = newtotal[3]/1000;
+    blointoint[0] = newtotal[3]/500;
     blointoint[1] = Math.floor(blointoint[0]);
     txtfblointoint.setText(""+blointoint[1]+"");
     newtotal[4] = (Math.abs(blointoint[0]-blointoint[1]))*newtotal[3];
